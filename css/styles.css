@@ -1,4 +1,9 @@
 body{
-    background-image:url("cube-six-gambling-play-37534.jpeg");background-size: cover;
+    background-color: gray;
 
+}
+.dice{
+    width:30px;
+    border:darkgrey 1px solid ;
+    
 }
