@@ -19,27 +19,33 @@
             <div class="row" id="game">
               
             </div>  
-            <div class="col-md-6">   
+            <div class="col-md-6" id="playerone">   
             <div class="jumbotron">
               <h3>Player One</h3>
               <div class="dice">0
 
               </div>
+              <h4><span id="p1NameOutput">Player One </span>total:<span id="p1BankTotal"></span></h4>
+        
             </div>
           </div>
        
-           <div class="col-md-6">
+           <div class="col-md-6" id="playertwo">
             <div class="jumbotron">
                 <h3>Player Two</h3>
                 <div class="dice">0
                   
                     </div>
+                    <h4><span id="p1NameOutput">Player Two </span>total:<span id="p1BankTotal"></span></h4>
+        
             </div>    
               
          </div>
          <div class="row">
+            <h4>Current Player:<span id="currentPlayer"></span></h4>
          <button type="submit" class="btn btn-danger">Roll Dice</button> 
          <button type="button" class="btn btn-dark">Hold</button>
+         <h3 id="winner"></h3>
         </div>
       </div>
       </div>
