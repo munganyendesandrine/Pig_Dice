@@ -55,9 +55,8 @@ button{
     box-sizing: border-box;
     width: 100%;
     padding: 0px;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url("../image/roll-the-dice-craps-board-game-points-122427.jpeg");
-    background-repeat: no-repeat;background-size: cover;
-
+    background-image: url("../assets/images/img17compressed.jpeg");
+    background-size: cover;
         color: #001f75;
 }
 h1,h3,h4,button{
