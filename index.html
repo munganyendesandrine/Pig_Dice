@@ -13,39 +13,64 @@
       <div class="pig">
       <div class="container">
             <h2>Pig Dice Game</h2>
-            <img src="image/dice.png" alt="A picture of dice">
-            <img src="image/dice.png" alt="A picture of dice" id="one">
+            <img src="ddce.png" alt="A picture of dice">
+            <img src="ddce.png" alt="A picture of dice" id="one">
             <center><button type="button"  class="btn btn-lg" id="newgame" > New Game</button></center> 
             <div class="row" id="game">
               
             </div>  
-            <div class="col-md-6" id="playerone">   
+            <div class="col-md-6 spacer bgColor">   
             <div class="jumbotron">
-              <h3>Player One</h3>
-              <div class="dice">0
-
+              <div class="wrapper player1">
+                <h3> Player 1</h3>
+                <div id="player1RunningTotal">
+                  Running Total: 0
+                </div>
+                <div id="player1Total">
+                  Total: 0
+                </div>
               </div>
-              <h4><span id="p1NameOutput">Player One </span>total:<span id="p1BankTotal"></span></h4>
-        
             </div>
           </div>
        
-           <div class="col-md-6" id="playertwo">
+           <div class="col-md-6 spacer bgColor">
             <div class="jumbotron">
-                <h3>Player Two</h3>
-                <div class="dice">0
-                  
-                    </div>
-                    <h4><span id="p1NameOutput">Player Two </span>total:<span id="p1BankTotal"></span></h4>
-        
-            </div>    
-              
+            <div class="wrapper player2">
+              <h3>Player 2</h3>
+              <div id="player2RunningTotal">
+                Running Total: 0
+              </div>
+              <div id="player2Total">
+                Total: 0
+              </div>
+            </div>   
+          </div>   
          </div>
          <div class="row">
-            <h4>Current Player:<span id="currentPlayer"></span></h4>
-         <button type="submit" class="btn btn-danger">Roll Dice</button> 
-         <button type="button" class="btn btn-dark">Hold</button>
-         <h3 id="winner"></h3>
+          <button type="button" id="roll" class = "btn btn-success btn-lg" name="button">Roll</button>
+          <button type="button" id="hold" class = "btn btn-warning btn-lg" name="button">Hold</button>
+
+          <div class="col-md-12 spacer">
+            <div class="wrapper center">
+                <div id="dice">
+                  <img src="image/1.png"/>
+                </div>
+                <div id="winner">
+                </div>
+            </div>
+  
+          </div>
+        <div class="row" id="instructions">
+          <h1>RULES</h1>
+          <ul>
+  
+  
+            <li>The rules are simple. Two  players will compete. The first player to reach 100 points or more is the winner. </li>
+            <li>When it is your turn, you roll. If you get a Pig-Out or an Oinker, then you pass the pigs onto the next player.</li>
+            <li> If you get anything else, you may decide to roll again or pass the pigs.</li>
+            <li> If you keep rolling again, you accumulate points to add to your bank but if you get a Pig-Out, then all your points accumulated this turn are nullified.</li>
+      
+          </ul>
         </div>
       </div>
       </div>
