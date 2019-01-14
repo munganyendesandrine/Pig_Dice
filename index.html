@@ -1,82 +1,4 @@
-<!--<!DOCTYPE html>
 
-<html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <link rel="icon" type="image/ico" href="image/images.png" />
-    <title>Pig-Dice</title>
-  </head>
-
-  <body>
-      <div class="pig">
-      <div class="container">
-            <h2>Pig Dice Game</h2>
-            <img src="ddce.png" alt="A picture of dice">
-            <img src="ddce.png" alt="A picture of dice" id="one">
-            <center><button type="button"  class="btn btn-lg" id="newgame" > New Game</button></center> 
-            <div class="row" id="game">
-              
-            </div>  
-            <div class="col-md-6 spacer bgColor">   
-            <div class="jumbotron">
-              <div class="wrapper player1 highlight">
-                <h3> Player 1</h3>
-                <div id="player1RunningTotal">
-                  Running Total: 0
-                </div>
-                <div id="player1Total">
-                  Total: 0
-                </div>
-              </div>
-            </div>
-          </div>
-       
-           <div class="col-md-6 spacer bgColor">
-            <div class="jumbotron">
-            <div class="wrapper player2 highlight">
-              <h3>Player 2</h3>
-              <div id="player2RunningTotal">
-                Running Total: 0
-              </div>
-              <div id="player2Total">
-                Total: 0
-              </div>
-            </div>   
-          </div>   
-         </div>
-         <div class="row">
-          <button type="button" id="roll" class = "btn btn-success btn-lg" name="button">Roll</button>
-          <button type="button" id="hold" class = "btn btn-warning btn-lg" name="button">Hold</button>
-
-          <div class="col-md-12 spacer">
-            <div class="wrapper center">
-               <div id="dice">
-                  <img src="image/1.png"/>
-                </div>
-                <div id="winner">
-                </div>
-            </div>
-  
-          </div>
-        <div class="row" id="instructions">
-          <h1>RULES</h1>
-          <ul>
-  
-  
-            <li>The rules are simple. Two  players will compete. The first player to reach 100 points or more is the winner. </li>
-            <li>When it is your turn, you roll. If you get a Pig-Out or an Oinker, then you pass the pigs onto the next player.</li>
-            <li> If you get anything else, you may decide to roll again or pass the pigs.</li>
-            <li> If you keep rolling again, you accumulate points to add to your bank but if you get a Pig-Out, then all your points accumulated this turn are nullified.</li>
-      
-          </ul>
-        </div>
-      </div>
-      </div>
-  </body>         
-</html>--> 
 <!DOCTYPE html>
 
 <html>
@@ -92,7 +14,7 @@
     <div id="header">
         <h1><img src="image/ddce.png" alt="Website Logo"> Pig Dice Game <img src="image/ddce.png" alt="Website Logo"></h1>
     </div>
-     The rules for game play   -->
+    
     <section id="rulesSection">
         <div id="rulesHeader">
             <h3 id="rules">Rules</h3>
@@ -101,7 +23,7 @@
             <p>This is a simple dice game where two players have the chance to roll the dice to try and achieve a score of 100.</p>
             <p>The rules of the game are:</p>
             <ul>
-                <li>When the player rolls a 2 - 6, the dice score is added to their turn total and they can continue to play.</li>
+                <li>When the player rolls the dice score is added to their turn total and they can continue to play.</li>
                 <li>When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.</li>
                 <li>When the player chooses to "hold"(pass their turn), their turn total is added to their total score, and it becomes the next player's turn.</li>
                 <li>The player who first scores 100 or more points wins the game.</li>
@@ -109,7 +31,7 @@
             <p>Try your luck!!!</p>
         </div>
     </section>
-    <!--The players names input form-->
+  
     <section id="playingForm">
         <h3 class="newGame">New Game</h3>
         <form id="playerNames" class="form-group">
@@ -127,7 +49,7 @@
             <button type="submit" class="btn" id="playButton">Play</button>
         </form>
     </section>
-    <!-- The gaming area for player 1 and 2-->
+    
     <section id="gamingArea" class="row">
         <section class="col-md-6 player1Area">
             <h4 class="player1NameOutput"></h4>
