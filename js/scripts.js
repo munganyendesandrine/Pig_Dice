@@ -75,7 +75,7 @@ Player.prototype.hold = function () {
 //Function to reset the form input fields, re-enable the buttons, remove the opacity from the gaming area and reset the scores to 0.
 
 function resetFields() {
-    $("input#player1Name").val("");
+    $("input#player1Name").val(""); 
     $("input#player2Name").val("");
     $('.player1Area').children().prop('disabled', false);
     $('.player2Area').children().prop('disabled', false);
