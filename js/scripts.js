@@ -49,7 +49,7 @@ Player.prototype.roll = function () {
          else {
             console.log("not working");
         }
-        return alert(" you got a 1. " + this.name + " Your turn is over!");
+        return alert(" you got a 1 " + this.name + " Your turn is over!");
     } else {
         this.turnTotal += randomNo;
     };
@@ -60,7 +60,7 @@ Player.prototype.hold = function () {
     activeUser();
     this.overallScore += this.turnTotal;
     if (this.overallScore >= 100) {
-        alert( this.name + " Game Over." + this.name + " You are the winner Congratulations!!!!");
+        alert( this.name + " Game Over" + this.name + " You are the winner Congratulations!!!!");
         resetFields();
         alert('To play with a new partner click New Game.')
 
