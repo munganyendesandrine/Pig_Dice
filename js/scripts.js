@@ -1,4 +1,5 @@
 var player1, player2;
+
 //Back-End Logic
 
 //Constructor function for a player
@@ -93,7 +94,10 @@ function resetFields() {
     })
 
 };
+
+
 //Front End Logic
+
 $(document).ready(function () {
     $("#rulesHeader").click(function () { //Makes the 'Rules' title clickeable and the rules themselves hideable.
         $("#rulesDefinitions").toggle();
