@@ -159,7 +159,7 @@ $(document).ready(function () {
         player1.turnTotal = 0;
         $('.diceRoll1').text(player1.diceRoll);
         $('.turnScore1').text(player1.turnTotal);
-    });
+    }); 
     $('.hold2').click(function (event) { 
         event.preventDefault();
         
