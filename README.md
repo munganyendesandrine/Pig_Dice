@@ -36,4 +36,4 @@ MIT copyright 2018
 
 ### link to live site on GitHub Pages
 
-```https://github.com/UmurerwaDivine/Pig-Dice```
+```https://umurerwadivine.github.io/Pig-Dice/```
