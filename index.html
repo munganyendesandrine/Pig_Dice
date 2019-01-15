@@ -13,7 +13,9 @@
   <body>
 
     <div id="header">
-        <h1><img src="image/ddce.png" alt="Website Logo"> Pig Dice Game <img src="image/ddce.png" alt="Website Logo"></h1>
+        <marquee direction="left">  
+          <h1><img src="image/dice.png" alt="Website Logo"> Pig Dice Game <img src="image/dice.png" alt="Website Logo"></h1>
+        </marquee> 
     </div>
     
     <section id="rulesSection">
@@ -21,28 +23,30 @@
             <h3 id="rules">Rules</h3>
         </div>
         <div id="rulesDefinitions">
-             <p>The rules of the game are:</p>
-             <ul>              
-                <li> when we press roll dice your score will be added in total score</li>
-                <li>when a player rolls 1  will be alerted and reverts to the next player</li>
-                <li>when a player press hold your score is added to total and reverts to the next player</li>
+             <ol> 
+                <li>This game of Pig Dice is best with two players</li>   
+                <li>The dice has 6 sides, each one contains 1 circle,2 circles,3 circles,4 circles,5 circles,6 circles respectively.</li>          
+                <li>The first player rolls the die. If he rolls as 2, 3, 4, 5, or 6, he writes down the score.</li>
+                <li>If he did not roll a 1, the player can decide to roll again. If he again rolls a 2, 3, 4, 5, or 6, he adds that number to his previous score.</li>
+                <li>If he rolls a 1, he earns no score and immediately passes the die to the next player.</li>
+                <li>However, If the player rolls a 1, he loses all his points (for that turn only) and must pass the die to the next player.</li>
                 <li>when a player scores 100 points wil be the winner of the game</li>
-              </ul>
-              <p>Good luck Both</p>
+              </ol>
+              <p>Start the Game Here:</p>
         </div>
     </section>
   
     <section id="playingForm">
         <h3 class="newGame">New Game</h3>
         <form id="playerNames" class="form-group">
-            <h3>Insert your names to play:</h3>
+            <h3>Input both Player names:</h3>
             <div class="row">
                 <section class="col-md-6">
-                    <label for="player1">Player One</label>
+                    <label for="player1">First Player</label>
                     <input type="text" required id="player1Name" class="form-control">
                 </section>
                 <section class="col-md-6">
-                    <label for="player1">Player Two</label>
+                    <label for="player1">Second Player</label>
                     <input type="text" required id="player2Name" class="form-control">
                 </section>
             </div>

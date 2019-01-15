@@ -15,11 +15,11 @@ and chrome to see some result.
 
 ### Author
 ```
-Umurerwa Divine
+Sandrine MUNGANYENDE
 ```
 ### contact information
 ```
-E-mail:divinekagame@gmail.com
+E-mail:mungasandwingsd@gmail.com
 ```
 
 ### BDD (behaviour driven development)
@@ -31,9 +31,9 @@ Pig Dice is a two player game. Click the ```roll dice``` button to roll the dice
 
 ### license and copyright
 ```
-MIT copyright 2018
+MIT copyright 2019
 ```
 
 ### link to live site on GitHub Pages
 
-```https://umurerwadivine.github.io/Pig-Dice/```
+```https://munganyendesandrine.github.io/Pig_Dice/```
